@@ -1,0 +1,4 @@
+[profile ask_cli_default]
+region = us-east-1
+[default]
+region = us-east-1

@@ -1,0 +1,168 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "my storyy",
+      "intents": [
+        {
+          "name": "ChooseOptionIntent",
+          "slots": [
+            {
+              "name": "option",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "I choose {option}",
+            "choose {option}",
+            "my option is {option}",
+            "I'll go with {option}",
+            "let it be {option}",
+            "I make a choice"
+          ]
+        },
+        {
+          "name": "AnswerIntent",
+          "slots": [
+            {
+              "name": "response",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "my answer is {response}",
+            "I say {response}",
+            "the answer is {response}",
+            "you can use {response}",
+            "I choose to say {response}",
+            "I have an answer"
+          ]
+        },
+        {
+          "name": "RestartIntent",
+          "samples": [
+            "start over",
+            "restart the story",
+            "begin again",
+            "new story"
+          ]
+        },
+        {
+          "name": "SetVoiceIntent",
+          "slots": [
+            {
+              "name": "voice",
+              "type": "VOICE_OPTIONS"
+            },
+            {
+              "name": "character",
+              "type": "CHARACTER_NAME"
+            }
+          ],
+          "samples": [
+            "use {voice}",
+            "change voice to {voice}",
+            "select {voice}",
+            "set {voice}",
+            "assign {voice} to {character}",
+            "use {voice} for {character}",
+            "give {character} the voice {voice}",
+            "make {character} speak like {voice}",
+            "I want {character} to speak like {voice}"
+          ]
+        },
+        {
+          "name": "StartStoryIntent",
+          "samples": [
+            "start story",
+            "begin story",
+            "let's start",
+            "I'm ready",
+            "begin the adventure"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "name": "VOICE_OPTIONS",
+          "values": [
+            {
+              "name": {
+                "value": "Amy"
+              },
+              "id": "amy"
+            },
+            {
+              "name": {
+                "value": "Brian"
+              },
+              "id": "brian"
+            },
+            {
+              "name": {
+                "value": "Emma"
+              },
+              "id": "emma"
+            },
+            {
+              "name": {
+                "value": "Matthew"
+              },
+              "id": "matthew"
+            },
+            {
+              "name": {
+                "value": "Joanna"
+              },
+              "id": "joanna"
+            }
+          ]
+        },
+        {
+          "name": "CHARACTER_NAME",
+          "values": [
+            {
+              "name": {
+                "value": "Lira"
+              },
+              "id": "lira"
+            },
+            {
+              "name": {
+                "value": "Taron"
+              },
+              "id": "taron"
+            },
+            {
+              "name": {
+                "value": "Narrator"
+              },
+              "id": "narrator"
+            },
+            {
+              "name": {
+                "value": "Elandra"
+              },
+              "id": "elandra"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

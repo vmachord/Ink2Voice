@@ -1,0 +1,10 @@
+node_modules/
+.ask/
+*.examples.json
+.env
+*.log
+dist/
+build/
+.DS_Store
+.vscode/
+.idea/

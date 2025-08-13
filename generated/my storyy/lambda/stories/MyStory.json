@@ -1,0 +1,39 @@
+{
+  "root": {
+    "text": "You wake up in a strange land. What do you do? Search for help Explore the ruins",
+    "options": {
+      "search for help": "SEARCH",
+      "explore the ruins": "RUINS"
+    }
+  },
+  "SEARCH": {
+    "text": "You find a village. Ask for shelter Keep walking",
+    "options": {
+      "ask for shelter": "END_SHELTER",
+      "keep walking": "END_LOST"
+    }
+  },
+  "RUINS": {
+    "text": "You discover ancient magic. Use it Leave it",
+    "options": {
+      "use it": "END_POWER",
+      "leave it": "END_SAFE"
+    }
+  },
+  "END_SHELTER": {
+    "text": "You are safe and live a peaceful life. THE END.",
+    "options": {}
+  },
+  "END_LOST": {
+    "text": "You get lost in the wild and are never found. THE END.",
+    "options": {}
+  },
+  "END_POWER": {
+    "text": "You gain immense power but lose your humanity. THE END.",
+    "options": {}
+  },
+  "END_SAFE": {
+    "text": "You walk away and return to normal life. THE END.",
+    "options": {}
+  }
+}
